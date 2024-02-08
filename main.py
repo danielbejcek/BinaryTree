@@ -26,7 +26,6 @@ class Node:
     def inOrderTraversal(self):
         if self.left:
             self.left.inOrderTraversal()
-            print("node:", self.left)
         print(self.data, end=" ")
         if self.right:
             self.right.inOrderTraversal()
